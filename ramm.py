@@ -112,7 +112,7 @@ def populateUsingSpatialJoinFC(input_dataset, spatialjoin_dataset, update_field,
 
 
 def mapFields(input_dataset, output_dataset, field_map_table):
-    # list the fields which contain the field map info
+    # list the fields which contain the field map info.
     fields = ["SourceFieldname", "DestinationFieldName"]
 
     # define function to get unique field values from a table
